@@ -1,4 +1,4 @@
-import { SimpleDay, Meal, FoodItem, Day } from "../components/single_meal"
+import { SimpleDay, Meal, Day } from "../components/single_meal"
 import axios from "axios";
 import { useState, useEffect } from "react";
 
