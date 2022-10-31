@@ -8,7 +8,7 @@ export default function Meals(){
 
     const getMealPlan = async () => {
         console.log("Geenerating meal plan...")
-        let response = await axios.get("http://ec2-44-203-126-101.compute-1.amazonaws.com:5000/",{params:{protein:50, carbs: 50, fats: 50}})
+        let response = await axios.get("http://ec2-44-203-126-101.compute-1.amazonaws.com:5000",{params:{protein:50, carbs: 50, fats: 50}})
         return response.data
     }
 
